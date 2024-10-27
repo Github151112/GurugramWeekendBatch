@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Server connected sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Database connected successfully]]>
+    </line>
+    <line>
+      <![CDATA[Launching chrome Successfully]]>
+    </line>
+    <line>
+      <![CDATA[browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Database Closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Server Closed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-26T11:22:06Z" name="Default suite" finished-at="2024-10-26T11:22:19Z" duration-ms="12534">
+    <groups>
+      <group name="ST">
+        <method signature="ValidLoginTest.login()[pri:0, instance:testScripts.ValidLoginTest@4f3bbf68]" name="login" class="testScripts.ValidLoginTest"/>
+      </group> <!-- ST -->
+      <group name="RT">
+        <method signature="ValidLoginTest.login()[pri:0, instance:testScripts.ValidLoginTest@4f3bbf68]" name="login" class="testScripts.ValidLoginTest"/>
+      </group> <!-- RT -->
+    </groups>
+    <test started-at="2024-10-26T11:22:06Z" name="Default test" finished-at="2024-10-26T11:22:19Z" duration-ms="12534">
+      <class name="testScripts.ValidLoginTest">
+        <test-method is-config="true" signature="toConnectServer()[pri:0, instance:testScripts.ValidLoginTest@4f3bbf68]" started-at="2024-10-26T11:22:06Z" name="toConnectServer" finished-at="2024-10-26T11:22:06Z" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Server connected sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectServer -->
+        <test-method is-config="true" signature="toConnectDatabase()[pri:0, instance:testScripts.ValidLoginTest@4f3bbf68]" started-at="2024-10-26T11:22:06Z" name="toConnectDatabase" finished-at="2024-10-26T11:22:06Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database connected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectDatabase -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testScripts.ValidLoginTest@4f3bbf68]" started-at="2024-10-26T11:22:06Z" name="setUp" finished-at="2024-10-26T11:22:15Z" duration-ms="8339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launching chrome Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:testScripts.ValidLoginTest@4f3bbf68]" started-at="2024-10-26T11:22:15Z" name="login" description="verify the user is able to perform login or not" finished-at="2024-10-26T11:22:19Z" duration-ms="3973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.ValidLoginTest@4f3bbf68]" started-at="2024-10-26T11:22:19Z" name="tearDown" finished-at="2024-10-26T11:22:19Z" duration-ms="197" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="toCloseDatabase()[pri:0, instance:testScripts.ValidLoginTest@4f3bbf68]" started-at="2024-10-26T11:22:19Z" name="toCloseDatabase" finished-at="2024-10-26T11:22:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database Closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseDatabase -->
+        <test-method is-config="true" signature="toCloseServer()[pri:0, instance:testScripts.ValidLoginTest@4f3bbf68]" started-at="2024-10-26T11:22:19Z" name="toCloseServer" finished-at="2024-10-26T11:22:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Server Closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseServer -->
+      </class> <!-- testScripts.ValidLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
